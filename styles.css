@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-family:"Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    box-shadow: 2px 2px 4px silver;
+    border: 3px solid #46494c;
+    border-radius: 4px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #c0d6df;
+    color: #2b2839;
+    border-bottom: 10px solid #133c55;
+    border-right: 10px solid #133c55;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px silver;
+    box-shadow: 2px 2px 4px silver;
+}
+
+
+.border-blue {
+    border: 1px dotted #0AFF85;
+}
+
+
+.card:hover {
+    background-color: #F2E7BB;
+    border-bottom: 10px solid  #F9BE9F;
+    border-right: 10px solid #F9BE9F;
+}
